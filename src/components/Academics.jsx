@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
-
+import img15 from "../assets/15.jpg";
+import img17 from "../assets/17.jpg";
+import img19 from "../assets/19.jpg";
+import img18 from "../assets/18.jpg";
 const Academic = () => {
   const [openIndex, setOpenIndex] = useState(null);
   const [animateCards, setAnimateCards] = useState([]);
@@ -8,40 +11,40 @@ const Academic = () => {
   const classes = [
     {
       name: "Playgroup",
-      image: "https://picsum.photos/400/250?random=1",
+      image: img15,
       desc: "Fun-based learning for toddlers to explore and socialize.",
       details: {
-        age: "2 years",
+        age: "1-2 years",
         fees: "₹30,000 per year",
         info: "Interactive learning, social skills, and playful activities for early childhood development.",
       },
     },
     {
       name: "Nursery",
-      image: "https://picsum.photos/400/250?random=2",
+      image: img17,
       desc: "Strong foundations in language, numbers, and creativity.",
       details: {
-        age: "3 years",
+        age: "3-4 years",
         fees: "₹35,000 per year",
         info: "Building language, math, and motor skills through play and structured learning.",
       },
     },
     {
       name: "LKG",
-      image: "https://picsum.photos/400/250?random=3",
+      image: img19,
       desc: "Structured learning with fun activities.",
       details: {
-        age: "4 years",
+        age: "4-5 years",
         fees: "₹40,000 per year",
         info: "Phonics, numbers, and storytelling with interactive activities.",
       },
     },
     {
       name: "UKG",
-      image: "https://picsum.photos/400/250?random=4",
+      image: img18,
       desc: "Preparing children for primary school with growth focus.",
       details: {
-        age: "5 years",
+        age: "5-6 years",
         fees: "₹45,000 per year",
         info: "Holistic prep for school — academics, creativity, and confidence.",
       },
